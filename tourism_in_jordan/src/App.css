@@ -1,0 +1,28 @@
+
+
+:root{
+    /* variable */
+    --color-dark:#27292a;
+    --color-light:#ffff;
+    --color-primary:#ec6090;
+    --color-darkest:#1f2122;
+
+    --dist-primary:50px;
+    --padding-primary:var(--dist-primary);
+    --margin-primary:var(--padding-primary)/2);
+
+--border-redius-primary:calc(var(--dist-primary));
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,900;1,700&family=Rokkitt:wght@1000&family=Source+Sans+Pro:ital,wght@0,700;1,400&display=swap');body {
+
+    background-color:var(--color-darkest);
+    color: var(--color-light);
+
+font-family: 'Anton', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rokkitt', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
