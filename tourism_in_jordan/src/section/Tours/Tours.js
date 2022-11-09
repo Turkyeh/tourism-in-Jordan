@@ -9,7 +9,8 @@ import Jerash from '../../assets/images/Jerash.jfif';
 import Deadsea from '../../assets/images/Dead Sea.jpg';
 import Amman from '../../assets/images/Amman Citadel.jpg';
 
-
+// import { useParams } from "react-router-dom";
+import { useState } from "react";
 const Tours = () => {
   return (
     // <div className='section-wrap'>
@@ -43,37 +44,45 @@ const Tours = () => {
                 </div>
                 <div class="row">
                   <div class="col-lg-3 col-sm-6">
+              <div class="item">
                     <div class="item">
-                              <img src={place1} alt="" />
-                              <Card/>
+                              {/* <img src={place1} alt="" />
                       <h4>Amman<br/><span>Roman amphitheater</span></h4><br/><br/>
-                                            <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button>
+                                            <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button> */}
 
+                  <Card title="Roman amphitheater" image={place1}  />
+
+                    </div>
                     </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                     <div class="item">
-                      <img src={Um_Qais} alt=""/>
+                      {/* <img src={Um_Qais} alt=""/>
                       <h4>IRBID<br/><span>Um_Qais</span></h4><br/><br/>
-                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button>
+                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button> */}
 
+                <Card title="Um_Qais<" image={Um_Qais} />
                     </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                     <div class="item">
-                      <img src={Aqaba} alt=""/>
+                      {/* <img src={Aqaba} alt=""/>
                       <h4>Aqaba<br/><span>Aqaba</span></h4>
                     <br/><br/>
-                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button>
+                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button> */}
+
+                                <Card title="Aqaba" image={Aqaba}/>
 
                     </div>
                       </div>
                     
                  <div class="col-lg-3 col-sm-6">
                     <div class="item">
-                      <img src={Ajloun} alt=""/>
+                      {/* <img src={Ajloun} alt=""/>
                       <h4>Ajloun<br/><span>Ajloun Castle </span></h4><br/><br/>
-                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button>
+                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button> */}
+
+                                <Card title="Ajloun" image={Ajloun}/>
 
                     </div>
                   </div>
@@ -84,17 +93,21 @@ const Tours = () => {
                       <div class="row">
                         <div class="col-lg-6 col-sm-6">
                           <div class="item inner-item">
-                            <img src={Petra} alt=""/>
+                            {/* <img src={Petra} alt=""/>
                             <h4> Petra<br/><span>Maan</span></h4>
-                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button>
+                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button> */}
+
+                      <Card title="Petra" image={ Petra} />
 
                           </div>
                         </div>
                         <div class="col-lg-6 col-sm-6">
                           <div class="item">
-                            <img src={Jerash} alt=""/>
+                            {/* <img src={Jerash} alt=""/>
                                 <h4>Jerash<br/><span>Jerash</span></h4><br/><br/>
-                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button>
+                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button> */}
+
+                                      <Card title="Jerash" image={Jerash}/>
 
                           </div>
                         </div>
@@ -103,17 +116,21 @@ const Tours = () => {
                   </div>
                   <div class="col-lg-3 col-sm-6">
                     <div class="item">
-                      <img src={Deadsea} alt=""/>
+                      {/* <img src={Deadsea} alt=""/>
                          <h4>Dead sea<br/><span>Salt S</span></h4><br/><br/>
-                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button>
+                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button> */}
+
+                                <Card title="Deadsea" image={Deadsea}/>
 
                     </div>
                   </div>
                   <div class="col-lg-3 col-sm-6">
                     <div class="item">
-                      <img src={Amman} alt=""/>
+                      {/* <img src={Amman} alt=""/>
                           <h4>Amman Citadel<br/><span>/Amman</span></h4><br/><br/>
-                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button>
+                                                                <button style={{border: '1px solid red', borderRadius: '30px'}} type="">More informatiom</button> */}
+
+                                <Card title="Amman Citadel" image={Amman}/>
 
                     </div>
                   </div>

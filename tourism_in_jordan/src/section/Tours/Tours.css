@@ -194,6 +194,8 @@ html,
 body {
     background: #1f2122;
     font-family: 'Poppins', sans-serif;
+    /* one way binding */
+    /* شوفي الشرح لهاد الجزء  */
 }
 
 body .page-content {

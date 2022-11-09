@@ -1,5 +1,11 @@
 // import React from 'react'
 import './Footer.css';
+
+import { useState } from "react";
+import ReactDOM from "react-dom/client";
+// import { IconName } from "react-icons";
+// import { FaStar } from 'react-bootstrap';
+// to use bootstrab liblary
 const Footer = (props) => {
  
       // Footer
@@ -19,7 +25,7 @@ const Footer = (props) => {
               <h3 class="text-dark">Let's get started!</h3>
             </div>
             <div class="ml-auto">
-              <a href="#" class="btn btn-dark rounded-0 py-3 px-5">Contact us</a>
+              <a href="#" class="btn btn-dark rounded-0 py-3 px-5"> Contact us</a>
             </div>
           </div>
           <div class="row">

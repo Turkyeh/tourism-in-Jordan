@@ -1,6 +1,7 @@
 //  import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./ِApp";
+// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // الطريقة 1
 // ReactDOM.render("hello all",document.getElementById('root'));
